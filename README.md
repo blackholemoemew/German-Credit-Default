@@ -8,7 +8,7 @@ Below is a brief summary of the project.
 | Category | Description | Source |
 |:--------:|:-----------:|:-------------------:|
 |Dataset|German credit data from UCI database|[Link](https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/)|
-|Language|R|[Code]()|
+|Language|R|[Code](/GermanCredit.R)|
 |Packages|ggpolt2, cowplot, randomForest, pROC, ROSE||
 |Algorithms|Logistic Regression, Random Forest||
 |Reference 1|Random Forests in R|[Link](https://www.youtube.com/watch?v=6EXPYzbfLCE&t=801s)|
