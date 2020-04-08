@@ -11,9 +11,9 @@ Below is a brief summary of the project.
 |Language|R|[Code](/GermanCredit.R)|
 |Packages|ggpolt2, cowplot, randomForest, pROC, ROSE||
 |Algorithms|Logistic Regression, Random Forest||
-|Reference 1|Random Forests in R|[Link](https://www.youtube.com/watch?v=6EXPYzbfLCE&t=801s)|
+|Reference 1|Video: Random Forests in R|[Link](https://www.youtube.com/watch?v=6EXPYzbfLCE&t=801s)|
 |Reference 2|Article: Using Random Forest to Learn Imbalanced Data|[Link](https://statistics.berkeley.edu/sites/default/files/tech-reports/666.pdf)|
-|Reference 3|Handling Class Imbalance Problem in R: Improving Predictive Model Performance|[Link](https://www.youtube.com/watch?v=Ho2Klvzjegg&t=984s)|
+|Reference 3|Video: Handling Class Imbalance Problem in R: Improving Predictive Model Performance|[Link](https://www.youtube.com/watch?v=Ho2Klvzjegg&t=984s)|
 
 ## 2.Load Data and Feature Engeering
 The good news was that there was no NAs in the dataset, so I didn't struggle with handling the missing values. But I wanted to keep in mind that Random Forests has an effective method for estimating missing data and maintains accuracy when a large proportion of the data are missing. In R, we could use rfImpute() function from randomForest package.
@@ -131,7 +131,7 @@ Another popular discrimination tool is Random Forests. Random Forests own many e
 >  - It has methods for balancing error in class population unbalanced data sets.
 >  - It computes proximities between pairs of cases that can be used in clustering, locating outliers, or (by scaling) give interesting views of the data.
 >
-> By Leo Breiman and Adele Cutler. Check full information here: [Link](https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm#missing1)
+> By Leo Breiman and Adele Cutler. Check full information here: [Link](https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm#features)
 
 First, built the original Random Forests model using default parameters. The output told us:
 1. Our RF model is for classification.
